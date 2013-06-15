@@ -13,6 +13,8 @@
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized/")
 (add-to-list 'load-path "~/.emacs.d/less-css-mode/")
+(add-to-list 'load-path "~/.emacs.d/go-mode/")
 (load-theme 'solarized-dark t)
 (require 'less-css-mode)
+(require 'go-mode-load)
 
