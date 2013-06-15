@@ -11,5 +11,8 @@
  ;; If there is more than one, they won't work right.
  )
 
-(add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized-master/")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized/")
+(add-to-list 'load-path "~/.emacs.d/less-css-mode/")
 (load-theme 'solarized-dark t)
+(require 'less-css-mode)
+
