@@ -17,4 +17,5 @@
 (load-theme 'solarized-dark t)
 (require 'less-css-mode)
 (require 'go-mode-load)
+(desktop-save-mode 1)
 
