@@ -19,3 +19,5 @@
 (require 'go-mode-load)
 (desktop-save-mode 1)
 
+(global-linum-mode t)
+(setq gdb-many-windows t)
