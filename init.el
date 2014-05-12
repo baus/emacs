@@ -21,5 +21,5 @@
 
 (global-linum-mode t)
 (setq gdb-many-windows t)
-(setq creat-lockfiles nil)
-(setq-default indent-tabs-mode nil) 
+(setq-default indent-tabs-mode nil)
+(setq create-lockfiles nil)
